@@ -7,7 +7,7 @@ import { predictVideoFromBlob } from "@/lib/api";
 /**
  * Toggle this to turn the live API on/off.
  */
-const API_ON = true
+const API_ON = false
 
 export default function Page() {
   const [src, setSrc] = React.useState<string>(""); // preview src
